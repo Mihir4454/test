@@ -1,5 +1,8 @@
 # Flask boilerplate 
 This is a sample structure for Flask Projects with templating and REST API versioning.
+<div class="text-blue mb-2">
+  .text-blue on white
+</div>
 ## Table of content
 - [Standard](#standard)
 - [Project Structure](#project-structure)
