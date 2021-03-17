@@ -53,7 +53,7 @@ FlaskBoilerPlate
    └── README.md
 ```
 ## Project Directories
-###1 . app
+### 1 . app
 Main project directory where all app are created.This contains following files and folder. 
 * ####api
 &emsp;&emsp;Contains all api versioning and routes files with signup and login apis.
@@ -92,7 +92,7 @@ To run your application.
 * itsdangerous for generating random tokens for the confirmation emails.
 * Faker used for generating fake user for database
 
-##Quick Start
+## Quick Start
 1. Initialize and activate a virtualenv:
    * for windows
    ```diff  
