@@ -57,17 +57,17 @@ FlaskBoilerPlate
 Main project directory where all app are created.This contains following files and folder. 
 * #### api
 &emsp;&emsp;Contains all api versioning and routes files with signup and login apis.
-* auth
+* #### auth
 &emsp;&emsp;Contains basic authentication features like signup, login, forgot password and reset password views. 
-* ####static
+* #### static
 &emsp;&emsp;Contains the Css, Img and Js files used in your project.
-* ####templates
+* #### templates
 &emsp;&emsp;Contains the HTML templates used in your project.
-* ####toolbox
+* #### toolbox
 &emsp;&emsp;Contain files for flask admin and sending emails.
-* ####init.py
+* #### init.py
 &emsp;&emsp;Main app are register here.
-* ####seeding.py
+* #### seeding.py
 &emsp;&emsp;Seeding file for create fake user.
 ### 2 . env
 Contains environment variables.
