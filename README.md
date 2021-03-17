@@ -95,9 +95,9 @@ To run your application.
 ## Quick Start
 1. Initialize and activate a virtualenv:
    * for windows
-   ```python
-   + virtualenv env
-   + \path\to\env\Scripts\activate
+   ```yaml
+     hi: virtualenv env
+    \path\to\env\Scripts\activate
     ```
    * for linux
    ```diff  
