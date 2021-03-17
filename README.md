@@ -96,22 +96,22 @@ To run your application.
 1. Initialize and activate a virtualenv:
    * for windows
    ```yaml
-     hi: virtualenv env
-    \path\to\env\Scripts\activate
+     virtualenv env
+     \path\to\env\Scripts\activate
     ```
    * for linux
-   ```diff  
-   - sudo apt install python3-venv
-   - python3 -m venv env
-   - source env/bin/activate
+   ```yaml  
+    sudo apt install python3-venv
+    python3 -m venv env
+    source env/bin/activate
    ```
 2. Install the dependencies:
-   ```diff  
+   ```yaml  
     pip install -r requirements.txt # for windows
     pip3 install -r requirements.txt # for linux
    ```
 3. For database configuration in config.py
-   ```diff 
+   ```yaml 
    POSTGRES = {
     'user': 'postgres',
     'pw': 'password',
@@ -122,30 +122,30 @@ To run your application.
    SQLALCHEMY_DATABASE_URI = 'postgresql://%(user)s:\%(pw)s@%(host)s:%(port)s/%(db)s' % POSTGRES 
    ```
 4. Run command for database migration:
-   ```diff  
-   - flask db init
-   - flask db migrate -m "Initial migration."
-   - flask db upgrade
+   ```yaml  
+    flask db init
+    flask db migrate -m "Initial migration."
+    flask db upgrade
    ```
 5. Run the development server:
    * for windows
-   ```diff  
-   - set FLASK_APP=run.py
-   - set FLASK_ENV=development
-   - flask run
+   ```yaml  
+    set FLASK_APP=run.py
+    set FLASK_ENV=development
+    flask run
    ```
    * for linux
-   ```diff  
-   - export FLASK_APP=run.py
-   - export FLASK_ENV=development
-   - flask run
+   ```yaml  
+    export FLASK_APP=run.py
+    export FLASK_ENV=development
+    flask run
    ```
 6. Navigate to http://localhost:5000
    <br/>
    <br/>
 7. Generate fake user:
-   ```diff  
-   - flask seeder --count=n # here n is number of user
+   ```yaml  
+    flask seeder --count=n # here n is number of user
    ```
 ## On successful running
 ![](readme-Image/home.png)
