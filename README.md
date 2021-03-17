@@ -55,9 +55,9 @@ FlaskBoilerPlate
 ## Project Directories
 ### 1 . app
 Main project directory where all app are created.This contains following files and folder. 
-* ####api
+* api
 &emsp;&emsp;Contains all api versioning and routes files with signup and login apis.
-* ####auth
+* auth
 &emsp;&emsp;Contains basic authentication features like signup, login, forgot password and reset password views. 
 * ####static
 &emsp;&emsp;Contains the Css, Img and Js files used in your project.
@@ -69,15 +69,15 @@ Main project directory where all app are created.This contains following files a
 &emsp;&emsp;Main app are register here.
 * ####seeding.py
 &emsp;&emsp;Seeding file for create fake user.
-###2 . env
+### 2 . env
 Contains environment variables.
-###3 . migrations
+### 3 . migrations
 Generates automatically when run database migrations command.
-###4 . config.py
+### 4 . config.py
 Contains whole projects configurations. 
-###5 . requirements.txt
+### 5 . requirements.txt
 File contains all project dependency.
-###6 . run.py
+### 6 . run.py
 To run your application.
 
 ## Features
