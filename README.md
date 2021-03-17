@@ -55,7 +55,7 @@ FlaskBoilerPlate
 ## Project Directories
 ### 1 . app
 Main project directory where all app are created.This contains following files and folder. 
-#### api
+* #### api
 &emsp;&emsp;Contains all api versioning and routes files with signup and login apis.
 * auth
 &emsp;&emsp;Contains basic authentication features like signup, login, forgot password and reset password views. 
