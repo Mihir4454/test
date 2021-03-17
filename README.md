@@ -107,8 +107,8 @@ To run your application.
    ```
 2. Install the dependencies:
    ```diff  
-   - pip install -r requirements.txt # for windows
-   - pip3 install -r requirements.txt # for linux
+    pip install -r requirements.txt # for windows
+    pip3 install -r requirements.txt # for linux
    ```
 3. For database configuration in config.py
    ```diff 
