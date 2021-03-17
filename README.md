@@ -95,7 +95,7 @@ To run your application.
 ## Quick Start
 1. Initialize and activate a virtualenv:
    * for windows
-   ```yaml  diff
+   ```python
    + virtualenv env
    + \path\to\env\Scripts\activate
     ```
